@@ -1,0 +1,7 @@
+../Core/Src/audioplay.c:18:6:Audio_Player_Play	16	static
+../Core/Src/audioplay.c:28:6:Audio_Player_Pause	8	static
+../Core/Src/audioplay.c:33:6:Audio_Player_Resume	8	static
+../Core/Src/audioplay.c:38:6:Audio_Player_Stop	8	static
+../Core/Src/audioplay.c:43:6:Audio_Player_VolumeCtl	16	static
+../Core/Src/audioplay.c:48:6:HAL_I2S_TxHalfCpltCallback	16	static
+../Core/Src/audioplay.c:55:6:HAL_I2S_TxCpltCallback	16	static

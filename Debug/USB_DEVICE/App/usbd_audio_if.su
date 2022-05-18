@@ -1,0 +1,9 @@
+../USB_DEVICE/App/usbd_audio_if.c:153:15:AUDIO_Init_FS	24	static
+../USB_DEVICE/App/usbd_audio_if.c:168:15:AUDIO_DeInit_FS	16	static
+../USB_DEVICE/App/usbd_audio_if.c:184:15:AUDIO_AudioCmd_FS	24	static
+../USB_DEVICE/App/usbd_audio_if.c:209:15:AUDIO_VolumeCtl_FS	16	static
+../USB_DEVICE/App/usbd_audio_if.c:222:15:AUDIO_MuteCtl_FS	16	static
+../USB_DEVICE/App/usbd_audio_if.c:235:15:AUDIO_PeriodicTC_FS	24	static
+../USB_DEVICE/App/usbd_audio_if.c:250:15:AUDIO_GetState_FS	4	static
+../USB_DEVICE/App/usbd_audio_if.c:261:6:TransferComplete_CallBack_FS	8	static
+../USB_DEVICE/App/usbd_audio_if.c:272:6:HalfTransfer_CallBack_FS	8	static
