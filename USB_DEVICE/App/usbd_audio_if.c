@@ -235,7 +235,7 @@ static int8_t AUDIO_MuteCtl_FS(uint8_t cmd)
 static int8_t AUDIO_PeriodicTC_FS(uint8_t *pbuf, uint32_t size, uint8_t cmd)
 {
   /* USER CODE BEGIN 5 */
-  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
+  HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
   UNUSED(pbuf);
   UNUSED(size);
   UNUSED(cmd);

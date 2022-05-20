@@ -35,7 +35,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "audio_fw_glo.h"
+#include "greq_glo.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -101,7 +102,8 @@ int main(void)
   MX_DMA_Init();
   MX_I2S2_Init();
   /* USER CODE BEGIN 2 */
-  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
+  HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
